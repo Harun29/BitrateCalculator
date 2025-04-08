@@ -12,6 +12,7 @@ namespace BitrateCalculator
         const double PollingIntervalSeconds = 0.5;
         const int RxOctetDifference = 16000;
         const int TxOctetDifference = 4000;
+
         static void Main(string[] args)
         {
             string json = File.ReadAllText("input.json");
